@@ -2,7 +2,9 @@ import Logo from '../assets/logo.svg';
 import GraphicDesign from '../assets/pattern-graphic-design.svg'
 import UI from '../assets/pattern-ui-ux.svg'
 import Apps from '../assets/pattern-apps.svg'
-import Illustrations from '../assets/pattern-illustrations.svg'    
+import Illustrations from '../assets/pattern-illustrations.svg'   
+import Photography from '../assets/pattern-photography.svg'
+import Motion from '../assets/pattern-motion-graphics.svg'
 import React from 'react';
 import Button from '../components/blackButton.js'
 const FrontPage = () => {
@@ -33,6 +35,14 @@ const FrontPage = () => {
                     <div className="h-40 mt-6 rounded-lg col-start-1 col-end-3 row-start-2 row-end-2 bg-red grid grid-rows-2 grid-cols-2">
                         <img className="col-start-2 col-end-3 row-start-1 row-end-1 pl-4 pt-6" src={Illustrations} alt="graphics" />
                         <p className="pl-6 pt-6 col-start-1 col-end-2 row-start-2 row-end-3 text-white text-2xl font-jakartaL">Illustrations</p>
+                    </div>
+                    <div className="h-52 mt-2 rounded-lg col-start-1 col-end-3 row-start-3 row-end-4 bg-green grid grid-rows-2 grid-cols-2">
+                        <img className=" col-start-1 col-end-3 row-start-1 row-end-1 pl-40 pt-6" src={Photography} alt="graphics" />
+                        <p className="pl-6 pt-12 col-start-1 col-end-2 row-start-2 row-end-3 text-white text-2xl font-jakartaL">Photography</p>
+                    </div>
+                    <div className="h-48 mt-6 rounded-lg col-start-1 col-end-3 row-start-4 row-end-5 bg-purple grid grid-rows-2 grid-cols-2">
+                        <img className="col-start-2 col-end-3 row-start-1 row-end-1 pl-4 pt-6" src={Motion} alt="graphics" />
+                        <p className="pl-6 pt-6 col-start-1 col-end-3 row-start-2 row-end-3 text-white text-2xl font-jakartaL">Motion Graphics</p>
                     </div>
                 </div>
             </div>
