@@ -9,6 +9,9 @@ import Amy from '../assets/image-amy.webp'
 import React from 'react';
 import BlackButton from '../components/blackButton.js'
 import RedButton from '../components/redButton.js'
+import Carousel from '../components/carousel.js'
+import ImageData from '../components/imageData.js'
+
 const FrontPage = () => {
     return ( 
         <main className="h-screen flex flex-col items-center w-full bg-beige overflow-scroll">
@@ -52,6 +55,8 @@ const FrontPage = () => {
                     <p className="pb-6 font-jakartaM font-medium text-grey text-base text-center pt-6 w-11/12">I Love working with others to create beautiful design solutions. I've designed everything from brand illustrations to complete mobile apps. I'm also handy with a camera!</p>
                     <RedButton/>
                 </div>
+                <h2 className="mt-24 font-jakartaL font-bold text-center text-2xl">My Work</h2>
+                <Carousel slides={ImageData}/>
         
         </main>
     )
