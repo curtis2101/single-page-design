@@ -57,6 +57,17 @@ const FrontPage = () => {
                 </div>
                 <h2 className="mt-24 font-jakartaL font-bold text-center text-2xl">My Work</h2>
                 <Carousel slides={ImageData}/>
+                <div className="mt-24 flex flex-col bg-black items-center justify-items-center w-11/12 rounded-xl">
+                    <h2 className="mt-12 font-jakartaL font-bold text-center text-2xl text-beige">Book a call with me</h2>
+                    <p className="mt-6 mb-6 font-jakartaM font-medium text-center text-base text-beige w-5/6">I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+                    <RedButton/>
+                    <div className="h-12">
+                    </div>
+                </div>
+                <footer className="mt-10 mb-8 w-11/12 flex items-center justify-between">
+                    <img className="h-12" src={Logo} alt="logo"/>
+                    <BlackButton />
+                </footer>
         
         </main>
     )
