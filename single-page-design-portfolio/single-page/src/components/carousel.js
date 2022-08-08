@@ -26,7 +26,7 @@ const Carousel = ({slides}) => {
         <section className='flex justify-center items-center'>
             {ImageData.map((slide, index) => {
                 return (
-                    <div className={index === current ? 'opacity-100 duration-1000 transform flex justify-center items-center' : 'opacity-0 duration-1000 flex justify-center items-center'} key={index}>
+                    <div className={index === current ? 'opacity-100 duration-200 transform flex justify-center items-center' : 'opacity-0 duration-200 flex justify-center items-center'} key={index}>
                         {index === current && (<>
                         <img src={ImageData[current <= 1 ? length - 2 : current -1].image} alt='multiple images' className='mt-16 mr-6 h-44 w-64 rounded-xl' />
                         <img src={slide.image} alt='multiple images' className='mt-16 h-44 w-64 rounded-xl' />
