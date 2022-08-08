@@ -19,16 +19,16 @@ const FrontPage = () => {
                 <img className="h-12 md:h-16" src={Logo} alt="logo"/>
                 <BlackButton />
             </nav>
-            <header className="flex flex-col items-center justify-items-center pt-8 ">
+            <header className="flex flex-col items-center justify-items-center pt-8 md:pt-16 ">
                 <h1 className="text-black text-center text-4xl md:text-5xl font-bold font-jakartaL">Design solutions made easy</h1>
-                <p className="text-grey text-center text-base font-medium font-jakartaM w-9/12 pt-4 md:text-lg ">With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
+                <p className="text-grey text-center text-base font-medium font-jakartaM w-9/12 pt-4 md:text-lg md:mt-7 ">With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
             </header>
-            <div className="mt-6 grid content-center justify-items-center auto-rows-min grid-cols-2"> {/*main grid div*/}
-                <div className=" bg-blue w-11/12 mb-6 max-h-96 rounded-lg row-start-1 row-end-2 col-start-1 col-end-3 grid grid-rows-2 grid-cols-2">
+            <div className="mt-6 md:w-full grid content-center justify-items-center auto-rows-min auto-cols"> {/*main grid div*/}
+                <div className=" bg-blue w-11/12 md:w-80 mb-6 max-h-96 rounded-lg row-start-1 row-end-2 col-start-1 col-end-3 md:col-end-2 grid grid-rows-2 grid-cols-2">
                     <img className="h-48 pt-6 pl-6 col-start-2 col-end-3" src={GraphicDesign} alt="graphic design"/>
                     <p className="text-white text-center text-2xl font-bold font-jakartaL col-start-1 col-end-3 row-start-2 row-end-3 flex items-end justify-start pb-5 pl-5">Graphic Design</p>
                 </div>
-                    <div className="h-44 rounded-lg col-start-1 col-end-2 row-start-2 row-end-2 mr-3 ml-4 bg-orange grid grid-rows-2 grid-cols-2">
+                    <div className="h-44 rounded-lg col-start-1 col-end-2 row-start-2 row-end-2 md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-3 mr-3 ml-4 bg-orange grid grid-rows-2 grid-cols-2">
                         <img className="pl-2 pt-6 h-20 row-start-1 row-end-1 col-start-2 col-end-3" src={UI} alt="UI/UX"/>
                         <p className="text-white text-2xl font-bold font-jakartaL col-start-1 col-end-2 row-start-2 row-end-2 flex items-end pl-6 pb-6">UI/UX</p>
                     </div>
