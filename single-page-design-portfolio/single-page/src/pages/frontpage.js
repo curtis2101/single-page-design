@@ -24,7 +24,7 @@ const FrontPage = () => {
                 <p className="text-grey text-center text-base font-medium font-jakartaM w-9/12 pt-4 md:text-lg md:mt-7 ">With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
             </header>
             <div className="mt-6 md:mt-16 md:w-full grid content-center md:justify-items-start justify-items-center auto-rows-min auto-cols"> {/*main grid div*/}
-                <div className=" bg-blue w-11/12 md:w-80 mb-6 max-h-96 rounded-lg row-start-1 row-end-2 col-start-1 col-end-3 md:ml-10 md:col-end-2 grid grid-rows-2 grid-cols-2">
+                <div className=" bg-blue w-11/12 md:w-10/12 mb-6 max-h-96 rounded-lg row-start-1 row-end-2 col-start-1 col-end-3 md:ml-10 md:col-end-2 grid grid-rows-2 grid-cols-2">
                     <img className="h-48 pt-6 pl-6 col-start-2 col-end-3" src={GraphicDesign} alt="graphic design"/>
                     <p className="text-white text-center text-2xl font-bold font-jakartaL col-start-1 col-end-3 row-start-2 row-end-3 flex items-end justify-start pb-5 pl-5">Graphic Design</p>
                 </div>
@@ -36,15 +36,15 @@ const FrontPage = () => {
                         <img className="pl-2 pt-6 h-20 row-start-1 row-end-1 col-start-2 col-end-3" src={Apps} alt="UI/UX"/>
                         <p className="text-white text-2xl font-bold font-jakartaL col-start-1 col-end-2 row-start-2 row-end-2 flex items-end pl-6 pb-6">Apps</p>
                     </div>
-                    <div className="h-40 w-11/12 mt-48 rounded-lg col-start-1 col-end-3 row-start-2 row-end-2 md:w-96 md:mt-56 md:col-start-2 md:col-end-4 md:row-start-1 md:row-end-2 bg-red grid grid-rows-2 grid-cols-2">
+                    <div className="h-40 w-11/12 mt-48 rounded-lg col-start-1 col-end-3 row-start-2 row-end-2 md:w-11/12 md:mt-56 md:col-start-2 md:col-end-4 md:row-start-1 md:row-end-2 bg-red grid grid-rows-2 grid-cols-2">
                         <img className="col-start-2 col-end-3 row-start-1 row-end-1 pl-4 pt-6" src={Illustrations} alt="graphics" />
                         <p className="pl-6 pt-6 col-start-1 col-end-2 row-start-2 row-end-3 text-white text-2xl font-bold font-jakartaL">Illustrations</p>
                     </div>
-                    <div className="h-52 w-11/12 mt-6 rounded-lg col-start-1 col-end-3 row-start-3 row-end-3 bg-green grid grid-rows-2 grid-cols-2">
+                    <div className="h-52 w-11/12 mt-6 rounded-lg col-start-1 col-end-3 row-start-3 row-end-3 md:col-start-1 md:h-44 md:ml-10 md:w-10/12 md:col-end-2 md:row-start-2 md:row-end-2 md:mt-0 bg-green grid grid-rows-2 grid-cols-2">
                         <img className=" col-start-1 col-end-3 row-start-1 row-end-1 pl-40 pt-6" src={Photography} alt="graphics" />
-                        <p className="pl-6 pt-12 col-start-1 col-end-2 row-start-2 row-end-3 text-white text-2xl font-jakartaL font-bold">Photography</p>
+                        <p className="pl-6 pt-12 md:pt-10 col-start-1 col-end-2 row-start-2 row-end-3 text-white text-2xl font-jakartaL font-bold">Photography</p>
                     </div>
-                    <div className="h-48 w-11/12 mt-64 rounded-lg col-start-1 col-end-3 row-start-3 row-end-4 bg-purple grid grid-rows-2 grid-cols-2">
+                    <div className="h-48 w-11/12 mt-64 rounded-lg col-start-1 col-end-3 row-start-3 row-end-4 md:col-start-2 md:mt-0 md:h-44 md:w-11/12 md:col-end-4 md:row-start-2 md:row-end-2 bg-purple grid grid-rows-2 grid-cols-2">
                         <img className="col-start-2 col-end-3 row-start-1 row-end-1 pl-4 pt-6" src={Motion} alt="graphics" />
                         <p className="pl-6 pt-9 col-start-1 col-end-3 row-start-2 row-end-3 text-white text-2xl font-jakartaL font-bold">Motion Graphics</p>
                     </div>
