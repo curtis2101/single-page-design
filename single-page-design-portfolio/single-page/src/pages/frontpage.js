@@ -11,6 +11,7 @@ import BlackButton from '../components/blackButton.js'
 import RedButton from '../components/redButton.js'
 import Carousel from '../components/carousel.js'
 import ImageData from '../components/imageData.js'
+import RedButtonBtm from '../components/redButtonTabletBottom.js'
 
 const FrontPage = () => {
     return ( 
@@ -60,9 +61,9 @@ const FrontPage = () => {
                 <h2 className="mt-24 font-jakartaL font-bold text-center text-2xl md:text-4xl">My Work</h2>
                 <Carousel slides={ImageData}/>
                 <div className="mt-24 flex flex-col bg-black items-center justify-items-center w-11/12 rounded-xl">
-                    <h2 className="mt-12 font-jakartaL font-bold text-center text-2xl text-beige">Book a call with me</h2>
-                    <p className="mt-6 mb-6 font-jakartaM font-medium text-center text-base text-beige w-5/6">I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
-                    <RedButton/>
+                    <h2 className="mt-12 font-jakartaL font-bold text-center text-2xl md:text-4xl text-beige">Book a call with me</h2>
+                    <p className="mt-6 mb-6 font-jakartaM font-medium text-center text-base md:text-lg text-beige w-5/6 md:w-9/12">I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+                    <RedButtonBtm />
                     <div className="h-12">
                     </div>
                 </div>
