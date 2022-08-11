@@ -38,8 +38,8 @@ const Carousel = ({slides}) => {
 })}
         </section>
         <div className="mt-8 flex ">
-            <img className='p-6 mr-2 top-2/4 bg-black cursor-pointer select-none rounded-full h-16 w-16' src={LeftBtn} onClick={prevSlide} alt="left arrow" />
-            <img className='p-6 ml-2 top-2/4 bg-black cursor-pointer select-none rounded-full h-16 w-16' src={RightBtn} onClick={nextSlide} alt="right arrow" />
+            <img className='p-6 mr-2 top-2/4 bg-black cursor-pointer select-none rounded-full h-16 w-16 lg:hover:bg-blue' src={LeftBtn} onClick={prevSlide} alt="left arrow" />
+            <img className='p-6 ml-2 top-2/4 bg-black cursor-pointer select-none rounded-full h-16 w-16 lg:hover:bg-blue' src={RightBtn} onClick={nextSlide} alt="right arrow" />
         </div>
         </>
         
