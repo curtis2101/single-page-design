@@ -68,7 +68,7 @@ const FrontPage = () => {
                     </div>
                 </div>
                 <footer className="mt-10 mb-8 w-11/12 flex items-center justify-between">
-                    <img className="h-12" src={Logo} alt="logo"/>
+                    <img className="h-12 md:h-16" src={Logo} alt="logo"/>
                     <BlackButton />
                 </footer>
         
