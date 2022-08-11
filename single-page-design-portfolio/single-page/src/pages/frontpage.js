@@ -49,11 +49,11 @@ const FrontPage = () => {
                         <p className="pl-6 pt-9 col-start-1 col-end-3 row-start-2 row-end-3 text-white text-2xl font-jakartaL font-bold">Motion Graphics</p>
                     </div>
                 </div>
-                <div className="mt-24 flex flex-col items-center md:flex-row">
-                    <img className="h-72 w-72 md:h-80 md:w-80" src={Amy} alt="amy" />
+                <div className="mt-24 flex flex-col items-center md:relative md:flex-row">
+                    <img className="h-72 w-72 md:absolute md:-left-10 md:h-96 md:w-96" src={Amy} alt="amy" />
                     <div className="flex items-center flex-col">
-                        <h2 className="pt-10 w-10/12 md:w-8/12 md:text-left md:text-3xl text-2xl font-jakartaL font-bold text-center">I'm Amy, and I'd love to work on your next project</h2>
-                        <p className="pb-6 font-jakartaM font-medium text-grey md:text-lg md:text-left md:w-8/12 text-base text-center pt-6 w-11/12">I Love working with others to create beautiful design solutions. I've designed everything from brand illustrations to complete mobile apps. I'm also handy with a camera!</p>
+                        <h2 className="pt-10 w-10/12 md:w-5/12 md:text-left md:text-3xl md:relative md:-top-6 md:-right-48 text-2xl font-jakartaL font-bold text-center">I'm Amy, and I'd love to work on your next project</h2>
+                        <p className="pb-6 font-jakartaM font-medium text-grey md:text-lg md:relative md:-top-6 md:-right-48 md:text-left md:w-5/12 text-base text-center pt-6 w-11/12">I Love working with others to create beautiful design solutions. I've designed everything from brand illustrations to complete mobile apps. I'm also handy with a camera!</p>
                         <RedButton/>
                     </div>
                 </div>
