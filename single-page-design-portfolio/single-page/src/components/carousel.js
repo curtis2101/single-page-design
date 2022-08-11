@@ -28,9 +28,9 @@ const Carousel = ({slides}) => {
                 return (
                     <div className={index === current ? 'opacity-100 duration-200 transform flex justify-center items-center' : 'opacity-0 duration-200 flex justify-center items-center'} key={index}>
                         {index === current && (<>
-                        <img src={ImageData[current <= 1 ? length - 2 : current -1].image} alt='multiple images' className='mt-16 mr-6 h-44 w-64 rounded-xl' />
-                        <img src={slide.image} alt='multiple images' className='mt-16 h-44 w-64 rounded-xl' />
-                        <img src={ImageData[current >= length -1 ? 0:current +1].image} alt='multiple images' className='mt-16 ml-6 h-44 w-64 rounded-xl' />
+                        <img src={ImageData[current <= 1 ? length - 2 : current -1].image} alt='multiple images' className='mt-16 mr-6 h-44 w-64 md:h-80 md:w-full rounded-xl' />
+                        <img src={slide.image} alt='multiple images' className='mt-16 h-44 w-64 md:h-80 md:w-full rounded-xl' />
+                        <img src={ImageData[current >= length -1 ? 0:current +1].image} alt='multiple images' className='mt-16 ml-6 h-44 w-64 md:h-80 md:w-full rounded-xl' />
                         </>
                         )}
                     </div>

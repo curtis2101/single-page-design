@@ -57,7 +57,7 @@ const FrontPage = () => {
                         <RedButton/>
                     </div>
                 </div>
-                <h2 className="mt-24 font-jakartaL font-bold text-center text-2xl">My Work</h2>
+                <h2 className="mt-24 font-jakartaL font-bold text-center text-2xl md:text-4xl">My Work</h2>
                 <Carousel slides={ImageData}/>
                 <div className="mt-24 flex flex-col bg-black items-center justify-items-center w-11/12 rounded-xl">
                     <h2 className="mt-12 font-jakartaL font-bold text-center text-2xl text-beige">Book a call with me</h2>
