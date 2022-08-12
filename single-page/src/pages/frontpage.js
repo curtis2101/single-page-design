@@ -15,7 +15,7 @@ import RedButtonBtm from '../components/redButtonTabletBottom.js'
 
 const FrontPage = () => {
     return ( 
-        <main className="h-screen flex flex-col items-center w-full bg-beige overflow-scroll">
+        <main className="h-screen flex flex-col items-center w-full overflow-x-hidden bg-beige overflow-scroll">
             <nav className="w-11/12 pt-4 md:pt-8 pr-4 pl-4 flex items-center justify-between">
                 <img className="h-12 md:h-16 lg:ml-28" src={Logo} alt="logo"/>
                 <BlackButton />
